@@ -38,7 +38,7 @@ Projekt został wykonany w technologii HTML, CSS (Bootstrap) oraz JavaScript.
 - Counting Sort
 
 <p align="center">
-  <img src="./assets/aortowanai.png" width="600">
+  <img src="./assets/aortowania.png" width="600">
 </p>
 
 ---
