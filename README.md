@@ -37,6 +37,10 @@ Projekt został wykonany w technologii HTML, CSS (Bootstrap) oraz JavaScript.
 ### Sortowania specjalne
 - Counting Sort
 
+<p align="center">
+  <img src="./images/aortowanai.png" width="600">
+</p>
+
 ---
 
 ## Technologie
