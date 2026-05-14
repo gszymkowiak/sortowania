@@ -1,4 +1,4 @@
-# Algorytmy Sortowania
+# Algorytmy sortowania
 
 Aplikacja edukacyjna prezentująca podstawowe oraz zaawansowane algorytmy sortowania wraz z ich wizualizacjami, właściwościami oraz złożonością obliczeniową.
 
