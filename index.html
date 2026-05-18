@@ -8,10 +8,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="d-flex flex-column vh-100">
+  <body class="d-flex flex-column vh-100 custom-scroll">
     <!-- Header -->
-    <header class="container-fluid">
+    <header class="container-fluid bg-dark-subtle sticky-top">
       <h1 class="text-center text-uppercase p-2">Algorytmy sortowania</h1>
     </header>
 
@@ -21,11 +22,11 @@
         <div
           class="col-12 col-md-6 d-flex flex-column justify-content-start align-items-center"
         >
-          <table class="table table-bordered mt-5 mb-5">
-            <thead>
+          <table class="table table-bordered mt-5 table-striped">
+            <thead class="bg-info">
               <tr>
-                <th>Rodzaj sortowania</th>
-                <th>Złożoność obliczeniowa</th>
+                <th class="bg-black text-white">Rodzaj sortowania</th>
+                <th class="bg-black text-white">Złożoność obliczeniowa</th>
               </tr>
             </thead>
             <tbody>
@@ -56,16 +57,16 @@
             </tbody>
           </table>
           <figure
-            class="d-flex flex-column justify-content-center align-items-center"
+            class="d-flex flex-column d-none d-md-block justify-content-center align-items-center"
           >
-            <img src="./assets/time_sort.png" class="img-fluid" alt="" />
+            <img src="./assets/time_sort.png" class="img-fluid mt-5" alt="" />
             <caption>
               Najgorsze czasy wykonania algorytmów sortowania
             </caption>
           </figure>
         </div>
         <div
-          class="col-12 col-md-6 d-flex flex-column justify-content-start pt-5"
+          class="col-12 col-md-6 d-flex flex-column justify-content-start pt-0 p-md-5"
         >
           <div class="sorting">
             <p>
@@ -214,7 +215,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="container-fluid p-2 text-center">&copy; GS - Projekt edukacyjny realizowany w celach dydaktycznych</footer>
+    <footer class="container-fluid p-2 text-center bg-dark-subtle">
+      &copy; GS - Projekt edukacyjny realizowany w celach dydaktycznych
+    </footer>
     <!-- JS -->
     <script src="./app.js"></script>
   </body>
